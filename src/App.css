@@ -7,6 +7,58 @@
   pointer-events: none;
 }
 
+.container {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.operadores {
+  position: absolute;
+  top: 60%;
+  margin-left: 38%;
+}
+
+.igual {
+  position: absolute;
+  top: 68%;
+  margin-left: 38%;
+}
+
+.boton1 {
+  width: 300px;
+  height: 35px;
+}
+
+.clear {
+  position: absolute;
+  top: 76%;
+  margin-left: 38%;
+}
+
+.boton2 {
+  width: 300px;
+  height: 35px;
+}
+
+.operando1 {
+  text-align: left;
+  margin-left: 2%;
+  position: absolute;
+  top: 25%;
+}
+
+.operando2 {
+  text-align: right;
+  margin-left: 40%;
+  position: absolute;
+  top: 25%;
+}
+
+.boton {
+  width: 75px;
+  height: 35px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
