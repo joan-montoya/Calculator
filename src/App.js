@@ -66,9 +66,9 @@ function App() {
           <button className="boton" onClick={() => {setA(a = a + "9");}}>9</button>
           <button className="boton" onClick={() => { setVal((current) => ({ ...current, valor: "*" })); Cambiar()}}>*</button>
           <br></br>
-          <button className="boton" >0</button>
           <button className="boton" onClick={() => {setA(a = a + "0");}}>0</button>
-          <button className="boton" >0</button>
+          <button className="boton" onClick={() => {setA(a = a + "0");}}>0</button>
+          <button className="boton" onClick={() => {setA(a = a + "0");}}>0</button>
           <button className="boton" onClick={() => { setVal((current) => ({ ...current, valor: "/" })); Cambiar()}}>/</button>
           <br></br>
           <button className="boton1" onClick={() => result()}>=</button>
