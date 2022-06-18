@@ -1,5 +1,9 @@
 .App {
-  text-align: center;
+  height: 100%;
+  width: 100%;
+  font-size: large;
+  background-color: #000000;
+  color: azure;
 }
 
 .App-logo {
@@ -7,56 +11,30 @@
   pointer-events: none;
 }
 
-.container {
-  margin-left: 20%;
-  margin-right: 20%;
-}
-
-.operadores {
-  position: absolute;
-  top: 60%;
-  margin-left: 38%;
-}
-
-.igual {
-  position: absolute;
-  top: 68%;
-  margin-left: 38%;
+.resultados{
+  font-size: xx-large;
+  text-align: right;
 }
 
 .boton1 {
-  width: 300px;
-  height: 35px;
+  width: 100%;
+  height: 60px;
+  background-color: #FF5733 ;
+  border: 0px;
 }
-
-.clear {
-  position: absolute;
-  top: 76%;
-  margin-left: 38%;
-}
-
-.boton2 {
-  width: 300px;
-  height: 35px;
-}
-
-.operando1 {
-  text-align: left;
-  margin-left: 2%;
-  position: absolute;
-  top: 25%;
-}
-
-.operando2 {
-  text-align: right;
-  margin-left: 40%;
-  position: absolute;
-  top: 25%;
+.boton1:hover{
+  background-color: #f79d89;
 }
 
 .boton {
-  width: 75px;
-  height: 35px;
+  width: 25%;
+  height: 50px;
+  color: white;
+  background-color: #000000 ;
+  border: 0px;
+}
+.boton:hover {
+  background-color: #5a5a5a;
 }
 
 @media (prefers-reduced-motion: no-preference) {
