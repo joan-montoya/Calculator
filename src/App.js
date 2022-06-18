@@ -35,9 +35,7 @@ function App() {
 
   return (
     <div className="App">
-<<<<<<< HEAD
       
-=======
       <div className='resultados'>
           <h2>{parseInt(val1)} {valores.valor} {parseInt(val2)} = {counter}</h2>
           <h1>{parseInt(a)}</h1>
@@ -74,7 +72,6 @@ function App() {
           <button className="boton" onClick={() => { setVal((current) => ({ ...current, valor: "/" })); Cambiar()}}>/</button>
           <br></br>
           <button className="boton1" onClick={() => result()}>=</button>
->>>>>>> release/0.1.0
     </div>
   );
 
